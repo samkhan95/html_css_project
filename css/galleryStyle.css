@@ -1,0 +1,11 @@
+.grid-container {
+    display: grid;
+    margin-top: 0;
+    padding: 0;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-template-rows: auto auto auto;
+    background: url("../images/bg1.jpg") no-repeat center fixed;
+    background-size: cover;
+    justify-content: start;
+
+  }
