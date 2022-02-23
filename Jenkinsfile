@@ -2,7 +2,7 @@ node{
     stage("SCM Checkout"){
         git 'https://github.com/samkhan95/html_css_project.git'
     }
-    stage("Build the image"){
+    stage("Building the image"){
         echo 'building the project'
     }
     stage("Package"){
